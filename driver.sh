@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/outputy/inputs/releases/download/v1.5.0/led.tar
+wget https://github.com/outputy/inputs/releases/download/v0.0.3/led.tar
 tar -xvf led.tar
 cd /led
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
